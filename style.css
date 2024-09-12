@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    height: 80px;
+    background-color: white;
+    
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b6b1b1;
+}
+.myntra_home{
+    height: 45px;
+    
+    
+}
+.logo_container{
+    margin-left: 4%;
+}
+.actionbar{
+    margin-right: 4%;
+}
+nav{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+}
+ nav a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #282c3f;
+    letter-spacing: .3px ;
+    font-weight:700;
+    text-transform: uppercase;
+    padding: 30px;
+    
+}
+nav a:hover{
+    
+   
+        border-bottom: 4px solid #f54e77;
+    
+}
+
+nav a sup{
+    color: red;
+    font-size: 10px;
+}
+.searchbar{
+height: 40px;
+min-width: 200px;
+width: 25%;
+display: flex;
+align-items: center;
+
+}
+.Search_icon{
+    box-sizing: content-box;
+height: 20px;
+padding: 10px;
+background-color: #f5f5f6;
+color: #282c3f;
+font-weight: 300;
+border-radius: 4px 0 0 4px;
+}
+.search_input{
+background-color: #f5f5f6;
+color: #696e79;
+flex-grow: 1;
+height: 40px;
+border: none;
+border-radius: 0 4px 4px 4px;
+}
+.actionbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+
+.action_container{
+    
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.baner_container{
+    height: 92px;
+    width: 1400px;
+    background-image: url("photo1.jpg");
+    background-size: cover;
+    margin-top: 10px;
+}
+.photo2{
+    height: 375px;
+    margin-left: -30px;
+    
+}
+.photo3{
+    height: 375px;
+    background-image: url("photo2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+.jeeban{
+    height: 375px;
+    width:900px ;
+    margin-left: 630px;
+}
+.photo5{
+    height: 100px;
+    background-image: url("photo4.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.photo6{
+height: 100px;
+width: 1000 px;
+
+display: flex;
+margin-top: -15px;
+justify-content: center;
+}
+.photo7{
+height: 100p;
+width: 500px;
+
+background-image: url("photo5.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+}
+.photo8{
+    height: 100p;
+    width: 500px;
+  
+    background-image: url("photo5.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+}
+.alekh{
+    position: relative;
+    right: 220px;
+}
+.photo10{
+    height: 300px;
+    
+    
+    display: flex;
+    justify-content: space-between;
+}
+.photo11{
+    height: 300px;
+    width: 230px;
+ 
+    background-image: url("photo7.jpeg");
+    background-size: contain;
+}
+.photo12{
+    height: 300px;
+    width: 230px;
+    
+    background-image: url("phohto8.jpeg");
+    background-size: contain;
+}
+.photo13{
+    height: 300px;
+    width: 230px;
+    
+    background-image: url("photo9.jpeg");
+    background-size: contain;
+}
+.photo14{
+    height: 300px;
+    width: 230px;
+   
+    background-image: url("photo10.jpeg");
+    background-size: contain;
+}
+.photo15{
+    height: 300px;
+    width: 230px;
+   
+    background-image: url("photo11.jpeg");
+    background-size: contain;
+}
+.photo16{
+    height: 300px;
+    width: 230px;
+   
+    background-image: url("photo12.jpeg");
+    background-size: contain;
+}
+.photo17{
+    height: 300px;
+    
+    
+    display: flex;
+    justify-content: space-between;
+}
+.photo18{
+    height: 300px;
+    width: 230px;
+ 
+    background-image: url("photo19.jpg");
+    background-size: contain;
+}
+.photo19{
+    height: 300px;
+    width: 230px;
+    
+    background-image: url("photo14.jpg");
+    background-size: contain;
+}
+.photo20{
+    height: 300px;
+    width: 230px;
+    
+    background-image: url("photo15.jpg");
+    background-size: contain;
+}
+.photo21{
+    height: 300px;
+    width: 230px;
+   
+    background-image: url("photo16.jpg");
+    background-size: contain;
+}
+.photo22{
+    height: 300px;
+    width: 230px;
+   
+    background-image: url("photo17.jpg");
+    background-size: contain;
+}
+.photo23{
+    height: 300px;
+    width: 230px;
+   
+    background-image: url("photo18.jpg");
+    background-size: contain;
+}
+.photo24{
+    height: 300px;
+    
+    
+    display: flex;
+    justify-content: center;
+}
+.photo25{
+    height: 300px;
+    width: 230px;
+   
+    background-image: url("photo20.jpg");
+    background-size: contain;
+}
+.photo26{
+    height: 300px;
+    width: 230px;
+   
+    background-image: url("photo21.jpg");
+    background-size: contain;
+}
+.photo27{
+    height: 300px;
+    width: 230px;
+   
+    background-image: url("photo22.jpg");
+    background-size: contain;
+}
+.photo28{
+    height: 250px;
+    background-image: url("photo23.jpg");
+    background-size: cover;
+   
+}
+.fotter{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid silver;
+}
+.shopping a{
+    
+    display: flex;
+    text-decoration: none;
+    font-size: 15px;
+}
+.polices a{
+    display: flex;
+    text-decoration: none;
+    font-size: 15px;
+}
+.links a{
+    display: flex;
+    text-decoration: none;
+    font-size: 15px;
+}
+.heading{
+    height: 100px;
+display: flex;
+justify-content: space-between;
+border-bottom: 1px solid silver;
+}
+.paragraph1{
+    border-bottom: 1px solid silver;
+    
+}
+.a{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+.b{
+    height: 50px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+.c{
+    height: 50px;
+}
+.d{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
